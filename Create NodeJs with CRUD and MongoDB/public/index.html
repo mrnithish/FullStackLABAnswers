@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+ <title>EXPRESSJSAND MONGODB DATABASE EXAMPLE</title>
+ <script>
+ function view()
+ { window.open("http://localhost:3000/user");
+ }
+ </script>
+ </head>
+ <body>
+ <h1>EXPRESS JSANDMONGODB DATABASEEXAMPLE</h1>
+ <form method="post" action="/addname">
+ <label>Enter Your First Name</label>
+ <input type="text" name="firstName" placeholder="Enter first name..."
+required> <br><br>
+ <label>Enter Your LastName</label>
+ <input type="text" name="lastName" placeholder="Enter last name..."
+ required> <br><br>
+ <input type="submit" value="Add Name">
+ <input type="Button" value="View Name" onclick="view()">
+ </form>
+ </body>
+ </html>

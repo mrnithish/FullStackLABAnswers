@@ -1,4 +1,4 @@
 Open the terminal
+type cd filename
 type server.js
-type cd
 http://localhost:3000/ -> open the link in the terminal
