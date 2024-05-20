@@ -6,9 +6,7 @@
 
 2.Open terminal 
 
-3.Type
-
-'''git clone link'''
+3.Type  git clone Paste_the_link
 
 
 ## Hint
