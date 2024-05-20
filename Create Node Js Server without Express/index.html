@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <script type="text/javascript" src="validateform.js"></script>
+    <style>
+        ul {
+            list-style-type: none;
+        }
+        form {
+            background-color: #0eed3f;
+            width: 50%;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <form name="StudenSignupForm" action="#" onsubmit="return validateHTMLform();">
+        <div>
+            <center><font size="4"><b>Student Registration Form</b></font></center>
+            <ul>
+                <li>First Name</li>
+                <li><input type="text" name="textnames" id="textname" size="30"></li>
+            </ul>
+            <ul>
+                <li>Last Name</li>
+                <li><input type="text" name="lastnames" id="lastname" size="30"></li>
+            </ul>
+            <ul>
+                <li>Father Name</li>
+                <li><input type="text" name="fathername" id="fathername" size="30"></li>
+            </ul>
+            <ul>
+                <li>Address</li>
+                <li><input type="text" name="personaladdress" id="personaladdress" size="30"></li>
+            </ul>
+            <ul>
+                <li>Gender</li>
+                <li>
+                    <input type="radio" name="sex" value="male">Male
+                    <input type="radio" name="sex" value="female">Female
+                </li>
+            </ul>
+            <ul>
+                <li>City</li>
+                <li>
+                    <select name="City">
+                        <option value="-1" selected>Select..</option>
+                        <option value="KOLKATA">KOLKATA</option>
+                        <option value="CHENNAI">CHENNAI</option>
+                        <option value="PUNE">PUNE</option>
+                        <option value="JAIPUR">JAIPUR</option>
+                    </select>
+                </li>
+            </ul>
+            <ul>
+                <li>Course</li>
+                <li>
+                    <select name="Course">
+                        <option value="-1" selected>Select..</option>
+                        <option value="B.Tech">B.TECH</option>
+                        <option value="MCA">MCA</option>
+                        <option value="MBA">MBA</option>
+                        <option value="BCA">BCA</option>
+                    </select>
+                </li>
+            </ul>
+            <ul>
+                <li>State</li>
+                <li>
+                    <select name="State">
+                        <option value="-1" selected>Select..</option>
+                        <option value="Tamilnadu">TAMIL NADU</option>
+                        <option value="New Delhi">NEW DELHI</option>
+                        <option value="Mumbai">MUMBAI</option>
+                        <option value="Goa">GOA</option>
+                        <option value="Bihar">BIHAR</option>
+                    </select>
+                </li>
+            </ul>
+            <ul>
+                <li>District</li>
+                <li>
+                    <select name="District">
+                        <option value="-1" selected>Select..</option>
+                        <option value="Nalanda">NALANDA</option>
+                        <option value="UP">UP</option>
+                        <option value="Goa">GOA</option>
+                        <option value="Patna">PATNA</option>
+                    </select>
+                </li>
+            </ul>
+            <ul>
+                <li>PinCode</li>
+                <li><input type="text" name="pincode" id="pincode" size="30"></li>
+            </ul>
+            <ul>
+                <li>Student Email</li>
+                <li><input type="text" name="emailid" id="emailid" size="30"></li>
+            </ul>
+            <ul>
+                <li>Date Of Birth</li>
+                <li><input type="text" name="dob" id="dob" size="30"></li>
+            </ul>
+            <ul>
+                <li>Mobile Number</li>
+                <li><input type="text" name="mobileno" id="mobileno" size="30"></li>
+            </ul>
+            <ul>
+                <li><input type="reset"></li>
+                <li><input type="submit" value="Submit Form"></li>
+            </ul>
+        </div>
+    </form>
+</body>
+</html>
