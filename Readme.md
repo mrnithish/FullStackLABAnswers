@@ -4,7 +4,7 @@
 
 1.Click the code and copy the repo link
 
-2.Open terminal 
+2.Open terminal or command prompt in your desired location
 
 3.Type  git clone Paste_the_link
 
