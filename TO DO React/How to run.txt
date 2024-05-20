@@ -1,0 +1,4 @@
+open terminal
+cd filename
+npm install 
+npm start
