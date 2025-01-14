@@ -13,7 +13,6 @@ This project demonstrates creating a Node.js server with CRUD operations using M
 
 
 
----
 
 ## Node.js with Express
 
